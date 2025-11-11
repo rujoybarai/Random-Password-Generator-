@@ -67,3 +67,29 @@ button:active{
 button i{
   color: white;
 }
+
+
+@media (max-width: 480px){
+  .title{
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 60px;
+  }
+
+  .content{
+    margin-left: 15px;
+    height: 55px;
+    width: 400px;
+  }
+
+  .content input{
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+  button{
+    margin-left: 15px;
+    width: 50%;
+    font-size: 14px;
+  }
+}
